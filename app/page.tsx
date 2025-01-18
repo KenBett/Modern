@@ -7,7 +7,7 @@ export default function Home() {
           <h1 className="font-semibold text-white text-2xl tracking-wider">
             Moderning.
           </h1>
-          <div className="flex flex-row justify-between gap-4 sm:invisible">
+          <div className="flex flex-row justify-between gap-4 invisible md:visible">
             <p className="text-white">kenatohat@gmail.com</p>
             <p className="text-white">0740121019</p>
             <Menu />
