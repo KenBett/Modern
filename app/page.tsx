@@ -7,7 +7,7 @@ export default function Home() {
           <h1 className="font-semibold text-white text-2xl tracking-wider">
             Moderning.
           </h1>
-          <div className="flex flex-row justify-between gap-4">
+          <div className="flex flex-row justify-between gap-4 sm:invisible">
             <p className="text-white">kenatohat@gmail.com</p>
             <p className="text-white">0740121019</p>
             <Menu />
@@ -19,7 +19,7 @@ export default function Home() {
           Marketing is an art <br /> and we are artists
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-4 mt-16 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-16 w-full">
         <p>
           Marketing is essential for businesses to connect with their audience
           and drive sales. It involves understanding customer needs and creating
@@ -39,7 +39,7 @@ export default function Home() {
           and optimize their campaigns for better results.
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-2 mt-16 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-2 mt-16 w-full">
         <div className="flex flex-col h-96 w-full bg-rose-500 rounded-lg justify-between p-6 items-center">
           <Anchor color="black" />
           <div>
