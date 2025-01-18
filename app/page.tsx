@@ -5,7 +5,7 @@ export default function Home() {
       <div className="flex w-full">
         <div className="flex flex-row w-full justify-between">
           <h1 className="font-semibold text-white text-2xl tracking-wider">
-            Modern.
+            Moderning.
           </h1>
           <div className="flex flex-row justify-between gap-4">
             <p className="text-white">kenatohat@gmail.com</p>
